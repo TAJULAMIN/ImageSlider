@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="icon" href="/pexels-lum3n-44775-399161.jpg">
+    <style>
+        body{
+            background-color: #0001ff;
+        }
+        .container{
+            margin: 100px 0 0 200px;
+            width: 70%;
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+        }
+        .container  img{
+            height: 100%;
+            width: 10%;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid rgb(255, 255, 255,0.6) ;
+            transition: all ease-in 0.2s;
+        }
+        .container img:hover{
+            width: 25%;
+            height: 110%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/1701968868520.jpg" alt="">
+        <img src="/1707201458541.jpg" alt="">
+        <img src="/1707203016821.jpg" alt="">
+        <img src="/IMG_1975.jpg" alt="">
+        <img src="/Picsart_23-06-18_23-19-35-602.jpg" alt="">
+    </div>
+</body>
+</html>
